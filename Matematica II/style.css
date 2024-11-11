@@ -12,7 +12,7 @@
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Alunos Professores Componentes curriculares"
+      "Alunos Professores Componentes"
       "Alunos Horários Horários"
       "Alunos Horários Horários";
   }
@@ -21,7 +21,7 @@
   
   .Professores { grid-area: Professores; }
   
-  .Componentes curriculares { grid-area: Componentes curriculares; }
+  .Componentes { grid-area: Componentes; }
   
   .Horários { grid-area: Horários; }
   
